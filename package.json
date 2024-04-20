@@ -1,0 +1,20 @@
+{
+  "name": "climate-change-api",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "_comment": "nodemon is helps develop Node.js applications by automatically restarting the application when it detects file changes",
+    "start": "nodemon index.js"
+  },
+  "author": "Gilberto Lozano",
+  "license": "ISC",
+  "dependencies": {
+    "axios": "^1.6.8",
+    "cheerio": "^1.0.0-rc.12",
+    "express": "^4.19.2"
+  },
+  "devDependencies": {
+    "nodemon": "^3.1.0"
+  }
+}
